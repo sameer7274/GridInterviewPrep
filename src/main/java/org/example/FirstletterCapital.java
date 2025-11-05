@@ -11,5 +11,6 @@ public class FirstletterCapital {
                 .map(String::toUpperCase)
                 .toList();
         System.out.println(result);
+
     }
 }
