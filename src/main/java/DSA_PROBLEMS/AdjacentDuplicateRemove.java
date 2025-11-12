@@ -1,3 +1,5 @@
+package DSA_PROBLEMS;
+
 public class AdjacentDuplicateRemove {
 
     public static void main(String[] args) {
