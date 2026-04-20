@@ -5,6 +5,8 @@ public class AdjacentDuplicateRemove {
     public static void main(String[] args) {
         String s="abbaca";
 
+    //    StringBuilder sb=new StringBuilder();
+
         StringBuilder sb=new StringBuilder();
 
         for(char c:s.toCharArray()){
