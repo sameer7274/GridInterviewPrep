@@ -52,47 +52,6 @@ public class Frequency {
         System.out.println(s);
 
 
-        /*
-        Remove the duplicate character from a word
-
-         */
-
-        StringBuilder sb=new StringBuilder();
-
-        boolean[] seen =new boolean[256];
-
-        for(char c:ss.toCharArray()){
-            if(!seen[c]){
-                sb.append(c);
-                seen[c]=true;
-            }
-
-        }
-
-        System.out.println("Original " +ss);
-        System.out.println("Result "+ sb.toString());
-
-        /*
-        Remove duplicate word
-         */
-        String s2="what si is what is ";
-
-        String[] s3=s2.split("\\s+");
-
-        System.out.println(Arrays.toString(s3));
-
-        StringBuilder sb1=new StringBuilder();
-
-        HashSet<String> seen1=new HashSet<>();
-
-        for(String s4:s3){
-            if(!seen1.contains(s4)){
-                sb1.append(s4).append(" ");
-                seen1.add(s4);
-            }
-
-        }
-        System.out.println("Result "+ sb1.toString());
 
 
 
